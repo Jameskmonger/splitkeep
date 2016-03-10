@@ -8,6 +8,14 @@
   },
   "author": "James Monger <jameskmonger@hotmail.co.uk>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameskmonger/splitkeep.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jameskmonger/splitkeep/issues"
+  },
+  "homepage": "https://github.com/jameskmonger/splitkeep#readme",
   "devDependencies": {
     "modunit": "^0.1.2",
     "tap-diff": "^0.1.1"
