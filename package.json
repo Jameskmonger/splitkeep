@@ -1,7 +1,7 @@
 {
   "name": "splitkeep",
   "version": "0.5.0",
-  "description": "",
+  "description": "Split a string, keep the delimiter",
   "main": "index.js",
   "scripts": {
       "test": "node test.js | node node_modules/.bin/tap-diff"
