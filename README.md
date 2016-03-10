@@ -14,6 +14,10 @@ splitkeep('i like dots.they are my favourite.do you like them?');
 // ['i like dots.', 'they are my favourite.', 'do you like them?']
 ```
 
+## Installation
+
+    npm install splitkeep --save
+
 ## License
 
 [MIT](/LICENSE)
