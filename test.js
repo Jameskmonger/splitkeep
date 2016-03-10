@@ -11,12 +11,12 @@ test('splits correctly when splitting on dot', function (t, input, output) {
 ]);
 
 test('splits correctly when splitting on new line', function (t, input, output) {
-    var result = splitkeep(input, '\n');
+    var result = splitkeep(input, '\\n');
     t.assert.equal(output.toString(), result.toString());
 }, [
-    ['a\nb', ['a\n', 'b']],
-    ['b\nc', ['b\n', 'c']],
-    ['hello-there\nhi\n', ['hello-there\n', 'hi\n', '']]
+    ['a\\nb', ['a\\n', 'b']],
+    ['b\\nc', ['b\\n', 'c']],
+    ['hello-there\\nhi\\n', ['hello-there\\n', 'hi\\n', '']]
 ]);
 
 test('splits correctly when splitting on ampersand', function (t, input, output) {
