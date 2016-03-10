@@ -18,3 +18,12 @@ test('splits correctly when splitting on new line', function (t, input, output) 
     ['b\nc', ['b\n', 'c']],
     ['hello-there\nhi\n' ['hello-there\n', 'hi\n']]
 ]);
+
+test('splits correctly when splitting on ampersand', function (t, input, output) {
+    var result = splitkeep(input, '&');
+    t.assert.equal(result, output);
+}, [
+    ['a&b', ['a&', 'b']],
+    ['b&c', ['b&', 'c']],
+    ['hello-there&hi&' ['hello-there&', 'hi&']]
+]);
