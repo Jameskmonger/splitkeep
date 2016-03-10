@@ -1,6 +1,6 @@
 {
   "name": "splitkeep",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Split a string, keep the delimiter",
   "main": "index.js",
   "scripts": {
