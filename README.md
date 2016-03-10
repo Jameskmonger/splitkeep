@@ -1,3 +1,3 @@
 # splitkeep
 
-Split a string, keep the delimter.
+Split a string, keep the delimiter.
