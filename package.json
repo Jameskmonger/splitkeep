@@ -9,6 +9,7 @@
   "author": "James Monger <jameskmonger@hotmail.co.uk>",
   "license": "MIT",
   "devDependencies": {
-    "modunit": "^0.1.2"
+    "modunit": "^0.1.2",
+    "tap-diff": "^0.1.1"
   }
 }
