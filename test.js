@@ -27,3 +27,12 @@ test('splits correctly when splitting on ampersand', function (t, input, output)
     ['b&c', ['b&', 'c']],
     ['hello-there&hi&', ['hello-there&', 'hi&', '']]
 ]);
+
+test('splits correctly when filled with delimiter', function (t, delimiter, input, expected) {
+    var result = splitkeep(input, delimiter);
+    t.assert.equal(expected.toString(), result.toString());
+}, [
+    ['.', '....', ['.','.','.','.','']],
+    ['a', 'aaaa', ['a','a','a','a','']],
+    ['Zx', 'ZxZxZxZx', ['Zx', 'Zx', 'Zx', 'Zx', '']]
+]);
